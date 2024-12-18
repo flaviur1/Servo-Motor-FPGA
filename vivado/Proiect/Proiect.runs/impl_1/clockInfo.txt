@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1
-| Date         : Wed Nov 20 14:33:10 2024
+| Date         : Wed Dec 18 17:28:23 2024
 | Host         : DESKTOP-A86H2ER
 | Design       : design_1
 | Device       : xc7z020-clg400-1--
