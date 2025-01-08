@@ -89,12 +89,6 @@ set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop
 set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 
@@ -109,6 +103,9 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 }
 read_xdc C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc
 set_property used_in_implementation false [get_files C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc]
+
+read_xdc C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/xadc.xdc
+set_property used_in_implementation false [get_files C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/xadc.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

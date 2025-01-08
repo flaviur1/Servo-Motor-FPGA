@@ -7,10 +7,7 @@ entity servoDriver is
   Port(clk : in std_logic;
        reset: in std_logic;
        angle: in std_logic_vector(7 downto 0);
-       toMotor: out std_logic;
-       potentiometer: in std_logic;
-       sw: in std_logic_vector(3 downto 0);
-       btn: in std_logic_vector(3 downto 0));
+       toMotor: out std_logic);
 end servoDriver;
 
 architecture Behavioral of servoDriver is

@@ -146,3 +146,7 @@
 7693	8126	7562396438717207	libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/xil_cache.c.obj	bf4d70055f6a5ca5
 8103	8232	7562396439827443	libsrc/xiltimer/src/libxiltimer.a	29b37578f34a9fdc
 8127	8340	7562396440927691	libsrc/standalone/src/libxilstandalone.a	e917a2e836f77e4d
+60	871	0	libsrc/CMakeFiles/combined	65910b65501b3946
+60	871	0	C:/Users/flavi/Desktop/SSC/PROIECT/vitis/platformProiect/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/CMakeFiles/combined	65910b65501b3946
+52	319	0	libsrc/CMakeFiles/combined	65910b65501b3946
+52	319	0	C:/Users/flavi/Desktop/SSC/PROIECT/vitis/platformProiect/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/CMakeFiles/combined	65910b65501b3946

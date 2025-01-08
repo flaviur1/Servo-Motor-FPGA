@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Wed Dec 18 17:27:19 2024
+| Date         : Wed Jan  8 17:27:51 2025
 | Host         : DESKTOP-A86H2ER running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -93,7 +93,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |    9 |     0 |          0 |       125 |  7.20 |
+| Bonded IOB                  |   11 |     0 |          0 |       125 |  8.80 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |          0 |       130 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         4 |  0.00 |
@@ -149,7 +149,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |    8 |                  IO |
+| IBUF     |   10 |                  IO |
 | OBUF     |    1 |                  IO |
 +----------+------+---------------------+
 
@@ -165,8 +165,6 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | design_1_servoDriver_0_0        |    1 |
 | design_1_rst_ps7_0_50M_0        |    1 |
 | design_1_processing_system7_0_0 |    1 |
-| design_1_axi_gpio_3_0           |    1 |
-| design_1_axi_gpio_2_0           |    1 |
 | design_1_axi_gpio_1_0           |    1 |
 | design_1_axi_gpio_0_0           |    1 |
 | design_1_auto_pc_0              |    1 |

@@ -8,12 +8,12 @@
   **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Wed Dec 18 17:26:20 2024
+  **** Start of session at: Wed Jan  8 17:26:53 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source design_1_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 552.793 ; gain = 241.211
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 551.867 ; gain = 234.992
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2024.1/data/ip'.
@@ -26,51 +26,49 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7764
+INFO: [Synth 8-7075] Helper process launched with PID 3088
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1458.617 ; gain = 447.430
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1458.980 ; gain = 448.312
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:44]
-INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1765' bound to instance 'design_1_i' of component 'design_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:74]
-INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1798]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_0' of component 'design_1_axi_gpio_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2249]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_0_0_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_1_0_stub.vhdl:6' bound to instance 'axi_gpio_angle' of component 'design_1_axi_gpio_1_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2273]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_1_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_2_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_2_0_stub.vhdl:6' bound to instance 'axi_gpio_potentiometer' of component 'design_1_axi_gpio_2_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2296]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_2_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_2_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_3_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_3_0_stub.vhdl:6' bound to instance 'axi_gpio_sw_btn_out' of component 'design_1_axi_gpio_3_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2319]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_3_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_3_0_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2343]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_processing_system7_0_0_stub.vhdl:77]
-INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:978]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:46]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1879' bound to instance 'design_1_i' of component 'design_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1914]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_0' of component 'design_1_axi_gpio_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2302]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_1_0_stub.vhdl:6' bound to instance 'axi_gpio_angle' of component 'design_1_axi_gpio_1_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2326]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_axi_gpio_1_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2349]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_processing_system7_0_0_stub.vhdl:77]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1002]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_15SPJYW' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:58]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_15SPJYW' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:58]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_XU9C55' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:159]
 INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:159]
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_14WQB4R' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:260]
 INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_14WQB4R' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:260]
-INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_YFYJ3U' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:361]
-INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_YFYJ3U' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:361]
-INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_17KQ732' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:462]
-INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_17KQ732' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:462]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:586]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:769]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_auto_pc_0_stub.vhdl:71]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:586]
-INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1649]
-INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_xbar_0_stub.vhdl:52]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:978]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2551]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:22]
-INFO: [Synth 8-3491] module 'design_1_servoDriver_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_servoDriver_0_0_stub.vhdl:6' bound to instance 'servoDriver' of component 'design_1_servoDriver_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2564]
-INFO: [Synth 8-638] synthesizing module 'design_1_servoDriver_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_servoDriver_0_0_stub.vhdl:19]
-INFO: [Synth 8-3491] module 'design_1_xadc_wiz_0_1' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_xadc_wiz_0_1_stub.vhdl:6' bound to instance 'xadc_wiz_0' of component 'design_1_xadc_wiz_0_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2574]
-INFO: [Synth 8-638] synthesizing module 'design_1_xadc_wiz_0_1' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-12340-DESKTOP-A86H2ER/realtime/design_1_xadc_wiz_0_1_stub.vhdl:59]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1798]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_YFYJ3U' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:365]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_YFYJ3U' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_17KQ732' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:476]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_17KQ732' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:476]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:606]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:789]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_auto_pc_0_stub.vhdl:71]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:606]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1693]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1002]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2561]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'design_1_servoDriver_0_0' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_servoDriver_0_0_stub.vhdl:6' bound to instance 'servoDriver' of component 'design_1_servoDriver_0_0' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2574]
+INFO: [Synth 8-638] synthesizing module 'design_1_servoDriver_0_0' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_servoDriver_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_xadc_wiz_0_1' declared at 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_xadc_wiz_0_1_stub.vhdl:6' bound to instance 'xadc_wiz_0' of component 'design_1_xadc_wiz_0_1' [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:2581]
+INFO: [Synth 8-638] synthesizing module 'design_1_xadc_wiz_0_1' [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/.Xil/Vivado-18352-DESKTOP-A86H2ER/realtime/design_1_xadc_wiz_0_1_stub.vhdl:59]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/synth/design_1.vhd:1914]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:46]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_UYSKKA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_UYSKKA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module m04_couplers_imp_17KQ732 is either unconnected or has no load
@@ -106,18 +104,18 @@ WARNING: [Synth 8-7129] Port M04_ARESETN in module design_1_ps7_0_axi_periph_0 i
 WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.562 ; gain = 568.375
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.145 ; gain = 568.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.562 ; gain = 568.375
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.145 ; gain = 568.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.562 ; gain = 568.375
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1579.145 ; gain = 568.477
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1579.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1579.145 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -138,10 +136,6 @@ Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/
 Finished Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_servoDriver_0_0/design_1_servoDriver_0_0/design_1_servoDriver_0_0_in_context.xdc] for cell 'design_1_i/servoDriver'
 Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_angle'
 Finished Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_angle'
-Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_potentiometer'
-Finished Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_potentiometer'
-Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_sw_btn_out'
-Finished Parsing XDC File [c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_sw_btn_out'
 Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc]
 WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:8]
 WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:12]
@@ -152,38 +146,32 @@ WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/flavi/Desktop/SSC/
 WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:20]
 WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:21]
 WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:22]
-WARNING: [Vivado 12-584] No ports matched 'potentiometer'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:103]
-WARNING: [Vivado 12-584] No ports matched 'reset'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:136]
-WARNING: [Vivado 12-584] No ports matched 'angle[0]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:147]
-WARNING: [Vivado 12-584] No ports matched 'angle[1]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:148]
-WARNING: [Vivado 12-584] No ports matched 'angle[2]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:149]
-WARNING: [Vivado 12-584] No ports matched 'angle[3]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:150]
-WARNING: [Vivado 12-584] No ports matched 'angle[4]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:151]
-WARNING: [Vivado 12-584] No ports matched 'angle[5]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:152]
-WARNING: [Vivado 12-584] No ports matched 'angle[6]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:153]
-WARNING: [Vivado 12-584] No ports matched 'angle[7]'. [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc:154]
 Finished Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/xadc.xdc]
+Finished Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/xadc.xdc]
 Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1600.422 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1590.141 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1600.422 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1590.141 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -458,34 +446,12 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_ps7_0_50M. (constr
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xadc_wiz_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/servoDriver. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_gpio_angle. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_gpio_potentiometer. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_gpio_sw_btn_out. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Preparing Guide Design
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/utils_1/imports/synth_1/servoClock.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
----------------------------------------------------------------------------------
-Finished Doing Graph Differ : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.422 ; gain = 589.234
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Preparing Guide Design : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.422 ; gain = 589.234
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.422 ; gain = 589.234
----------------------------------------------------------------------------------
-
-
-Incremental Synthesis Report Summary:
-
-1. Incremental synthesis run: no
-
-   Reason for not running incremental synthesis : 
-
-
-INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -519,25 +485,25 @@ WARNING: [Synth 8-7129] Port M04_ARESETN in module design_1_ps7_0_axi_periph_0 i
 WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -555,37 +521,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -599,12 +565,10 @@ Report BlackBoxes:
 |2     |design_1_auto_pc_0              |         1|
 |3     |design_1_axi_gpio_0_0           |         1|
 |4     |design_1_axi_gpio_1_0           |         1|
-|5     |design_1_axi_gpio_2_0           |         1|
-|6     |design_1_axi_gpio_3_0           |         1|
-|7     |design_1_processing_system7_0_0 |         1|
-|8     |design_1_rst_ps7_0_50M_0        |         1|
-|9     |design_1_servoDriver_0_0        |         1|
-|10    |design_1_xadc_wiz_0_1           |         1|
+|5     |design_1_processing_system7_0_0 |         1|
+|6     |design_1_rst_ps7_0_50M_0        |         1|
+|7     |design_1_servoDriver_0_0        |         1|
+|8     |design_1_xadc_wiz_0_1           |         1|
 +------+--------------------------------+----------+
 
 Report Cell Usage: 
@@ -614,37 +578,34 @@ Report Cell Usage:
 |1     |design_1_auto_pc_0_bbox              |     1|
 |2     |design_1_axi_gpio_0_0_bbox           |     1|
 |3     |design_1_axi_gpio_1_0_bbox           |     1|
-|4     |design_1_axi_gpio_2_0_bbox           |     1|
-|5     |design_1_axi_gpio_3_0_bbox           |     1|
-|6     |design_1_processing_system7_0_0_bbox |     1|
-|7     |design_1_rst_ps7_0_50M_0_bbox        |     1|
-|8     |design_1_servoDriver_0_0_bbox        |     1|
-|9     |design_1_xadc_wiz_0_1_bbox           |     1|
-|10    |design_1_xbar_0_bbox                 |     1|
-|11    |IBUF                                 |     8|
-|12    |OBUF                                 |     1|
+|4     |design_1_processing_system7_0_0_bbox |     1|
+|5     |design_1_rst_ps7_0_50M_0_bbox        |     1|
+|6     |design_1_servoDriver_0_0_bbox        |     1|
+|7     |design_1_xadc_wiz_0_1_bbox           |     1|
+|8     |design_1_xbar_0_bbox                 |     1|
+|9     |IBUF                                 |    10|
+|10    |OBUF                                 |     1|
 +------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1590.141 ; gain = 579.473
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 1 critical warnings and 13 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1600.422 ; gain = 568.375
-Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1600.422 ; gain = 589.234
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 1590.141 ; gain = 568.477
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1590.141 ; gain = 579.473
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1600.422 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1590.141 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1600.422 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1590.141 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 87298cc6
+Synth Design complete | Checksum: 197ead4d
 INFO: [Common 17-83] Releasing license: Synthesis
-59 Infos, 67 Warnings, 1 Critical Warnings and 0 Errors encountered.
+58 Infos, 57 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1600.422 ; gain = 1017.641
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1600.422 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 1590.141 ; gain = 1008.996
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1590.141 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 17:27:19 2024...
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  8 17:27:51 2025...

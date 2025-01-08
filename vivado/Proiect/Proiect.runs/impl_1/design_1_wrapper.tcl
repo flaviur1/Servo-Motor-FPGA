@@ -127,6 +127,7 @@ OPTRACE "add files" START { }
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
   read_xdc C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/zybo.xdc
+  read_xdc C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.srcs/constrs_1/new/xadc.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

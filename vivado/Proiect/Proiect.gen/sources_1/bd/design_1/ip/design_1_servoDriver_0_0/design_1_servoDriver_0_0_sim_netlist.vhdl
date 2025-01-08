@@ -2,7 +2,7 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Wed Dec 18 17:24:57 2024
+-- Date        : Wed Jan  8 09:53:26 2025
 -- Host        : DESKTOP-A86H2ER running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.gen/sources_1/bd/design_1/ip/design_1_servoDriver_0_0/design_1_servoDriver_0_0_sim_netlist.vhdl
@@ -1951,10 +1951,7 @@ entity design_1_servoDriver_0_0 is
     clk : in STD_LOGIC;
     reset : in STD_LOGIC;
     angle : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    toMotor : out STD_LOGIC;
-    potentiometer : in STD_LOGIC;
-    sw : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    btn : in STD_LOGIC_VECTOR ( 3 downto 0 )
+    toMotor : out STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of design_1_servoDriver_0_0 : entity is true;

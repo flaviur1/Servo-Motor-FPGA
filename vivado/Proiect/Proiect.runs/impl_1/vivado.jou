@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Dec 18 17:27:29 2024
-# Process ID: 14516
+# Start of session at: Wed Jan  8 17:28:00 2025
+# Process ID: 3156
 # Current directory: C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/impl_1
 # Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
 # Log file: C:/Users/flavi/Desktop/SSC/PROIECT/vivado/Proiect/Proiect.runs/impl_1/design_1_wrapper.vdi
@@ -19,6 +19,6 @@
 # Host memory       :38517 MB
 # Swap memory       :5637 MB
 # Total Virtual     :44154 MB
-# Available Virtual :28134 MB
+# Available Virtual :26531 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace

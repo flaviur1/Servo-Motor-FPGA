@@ -1,35 +1,25 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="7312" HostCore="8" HostMemory="038517661696">
+    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="12712" HostCore="8" HostMemory="038517661696">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="5032" HostCore="8" HostMemory="038517661696">
+    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="8092" HostCore="8" HostMemory="038517661696">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="11844" HostCore="8" HostMemory="038517661696">
+    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="16964" HostCore="8" HostMemory="038517661696">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="17448" HostCore="8" HostMemory="038517661696">
+    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="19576" HostCore="8" HostMemory="038517661696">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="8556" HostCore="8" HostMemory="038517661696">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="6076" HostCore="8" HostMemory="038517661696">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="8928" HostCore="8" HostMemory="038517661696">
+    <Process Command="vivado.bat" Owner="flavi" Host="DESKTOP-A86H2ER" Pid="20356" HostCore="8" HostMemory="038517661696">
     </Process>
 </ProcessHandle>

@@ -2,7 +2,7 @@
 --Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
---Date        : Wed Dec 18 17:22:03 2024
+--Date        : Wed Jan  8 17:26:40 2025
 --Host        : DESKTOP-A86H2ER running 64-bit major release  (build 9200)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -37,7 +37,9 @@ entity design_1_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    toMotor : out STD_LOGIC
+    toMotor : out STD_LOGIC;
+    vaux14n : in STD_LOGIC;
+    vaux14p : in STD_LOGIC
   );
 end design_1_wrapper;
 
@@ -67,7 +69,9 @@ architecture STRUCTURE of design_1_wrapper is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    toMotor : out STD_LOGIC
+    toMotor : out STD_LOGIC;
+    vaux14n : in STD_LOGIC;
+    vaux14p : in STD_LOGIC
   );
   end component design_1;
 begin
@@ -96,6 +100,8 @@ design_1_i: component design_1
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
       sws_4bits_tri_i(3 downto 0) => sws_4bits_tri_i(3 downto 0),
-      toMotor => toMotor
+      toMotor => toMotor,
+      vaux14n => vaux14n,
+      vaux14p => vaux14p
     );
 end STRUCTURE;

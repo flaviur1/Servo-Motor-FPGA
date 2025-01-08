@@ -1,5 +1,5 @@
 -- (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
--- (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
+-- (c) Copyright 2022-2025 Advanced Micro Devices, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of AMD and is protected under U.S. and international copyright
@@ -58,10 +58,7 @@ ENTITY design_1_servoDriver_0_0 IS
     clk : IN STD_LOGIC;
     reset : IN STD_LOGIC;
     angle : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-    toMotor : OUT STD_LOGIC;
-    potentiometer : IN STD_LOGIC;
-    sw : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    btn : IN STD_LOGIC_VECTOR(3 DOWNTO 0)
+    toMotor : OUT STD_LOGIC
   );
 END design_1_servoDriver_0_0;
 
@@ -73,10 +70,7 @@ ARCHITECTURE design_1_servoDriver_0_0_arch OF design_1_servoDriver_0_0 IS
       clk : IN STD_LOGIC;
       reset : IN STD_LOGIC;
       angle : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-      toMotor : OUT STD_LOGIC;
-      potentiometer : IN STD_LOGIC;
-      sw : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      btn : IN STD_LOGIC_VECTOR(3 DOWNTO 0)
+      toMotor : OUT STD_LOGIC
     );
   END COMPONENT servoDriver;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
@@ -91,9 +85,6 @@ BEGIN
       clk => clk,
       reset => reset,
       angle => angle,
-      toMotor => toMotor,
-      potentiometer => potentiometer,
-      sw => sw,
-      btn => btn
+      toMotor => toMotor
     );
 END design_1_servoDriver_0_0_arch;
