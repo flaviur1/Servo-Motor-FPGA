@@ -1,0 +1,15 @@
+{
+  "name": "servo",
+  "type": "HOST",
+  "platform": "C:\\Users\\flavi\\Desktop\\SSC\\PROIECT\\newPlatform\\proiect\\export\\proiect\\proiect.xpfm",
+  "domain": "standalone_ps7_cortexa9_0",
+  "cpuInstance": "ps7_cortexa9_0",
+  "cpuType": "cortex-a9",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_ps7_cortexa9_0",
+  "applicationFlow": "EMBEDDED"
+}
